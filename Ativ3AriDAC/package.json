@@ -1,0 +1,17 @@
+{
+    "name":  "demo-2pc-postgres-mongodb",
+    "version":  "1.0.0",
+    "private":  true,
+    "description":  "Demonstração didática de coordenação em duas fases entre PostgreSQL e MongoDB",
+    "scripts":  {
+                    "start":  "node src/main.js all",
+                    "demo":  "node src/main.js all",
+                    "demo:1":  "node src/main.js 1",
+                    "demo:2":  "node src/main.js 2",
+                    "demo:3":  "node src/main.js 3"
+                },
+    "dependencies":  {
+                         "mongodb":  "^6.8.0",
+                         "pg":  "^8.13.0"
+                     }
+}
